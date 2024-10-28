@@ -1,0 +1,84 @@
+---
+manufacturer: NuSwitch
+model: P-PDU-30A24-L6
+slug: nuswitch-p-pdu-30a24-l6
+part_number: P-PDU-30A24-L6
+u_height: 0
+is_full_depth: false
+airflow: passive
+power-ports:
+  - name: Power Source
+    type: hardwired
+power-outlets:
+  - name: Power Outlet 1
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 2
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 3
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 4
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 5
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 6
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 7
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 8
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 9
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 10
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 11
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 12
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 13
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 14
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 15
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 16
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 17
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 18
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 19
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 20
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 21
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 22
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 23
+    type: nema-5-15r
+    power_port: Power Source
+  - name: Power Outlet 24
+    type: nema-5-15r
+    power_port: Power Source
