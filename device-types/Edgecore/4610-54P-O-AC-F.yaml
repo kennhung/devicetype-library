@@ -4,7 +4,6 @@ model: 4610-54P-O-AC-F
 slug: edgecore-4610-54p-o-ac-f
 part_number: 4610-54P-O-AC-F
 u_height: 1
-is_full_depth: true
 airflow: front-to-rear
 console-ports:
   - name: Console

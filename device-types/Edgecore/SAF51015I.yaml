@@ -1,0 +1,51 @@
+---
+manufacturer: Edgecore
+model: SAF51015I
+slug: edgecore-saf51015i
+part_number: SAF51015I
+u_height: 1
+airflow: front-to-rear
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 300
+interfaces:
+  - name: enp2s0
+    label: LAN1
+    type: 1000base-t
+  - name: enp3s0
+    label: LAN2
+    type: 1000base-t
+  - name: enp4s0
+    label: LAN3
+    type: 1000base-t
+  - name: enp5s0
+    label: LAN4
+    type: 1000base-t
+  - name: enp6s0f0
+    label: LAN5
+    type: 1000base-t
+  - name: enp6s0f1
+    label: LAN6
+    type: 1000base-t
+  - name: enp6s0f2
+    label: LAN7
+    type: 1000base-t
+  - name: enp6s0f3
+    label: LAN8
+    type: 1000base-t
+  - name: enp10s0f0
+    label: LAN9
+    type: 10gbase-x-sfpp
+  - name: enp10s0f1
+    label: LAN10
+    type: 10gbase-x-sfpp
+  - name: enp11s0f0
+    label: LAN11
+    type: 10gbase-x-sfpp
+  - name: enp11s0f1
+    label: LAN12
+    type: 10gbase-x-sfpp
