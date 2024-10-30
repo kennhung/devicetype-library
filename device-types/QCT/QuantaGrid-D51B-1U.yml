@@ -7,18 +7,21 @@ is_full_depth: true
 console-ports:
   - name: Serial
     type: de-9
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 1200
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 1200
+module-bays:
+  - name: PSU-1
+    label: "1"
+    position: PSU-1
+  - name: PSU-2
+    label: "2"
+    position: PSU-2
+  - name: PCIe Gen3 x16 FHHL
+  - name: PCIe Gen3 x16 LP MD-2
+  - name: PCIe Gen3 x8 OCP LAN mezzanine slot
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
+  - name: LOM 1
+    type: 10gbase-t
+  - name: LOM 2
+    type: 10gbase-t
   - name: bmc nic
     type: 1000base-t
     mgmt_only: true
