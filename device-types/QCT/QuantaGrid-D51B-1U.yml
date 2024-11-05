@@ -15,8 +15,11 @@ module-bays:
     label: "2"
     position: PSU-2
   - name: PCIe Gen3 x16 FHHL
+    position: PCIe-FH
   - name: PCIe Gen3 x16 LP MD-2
+    position: PCIe-LP
   - name: PCIe Gen3 x8 OCP LAN mezzanine slot
+    position: PCIe-OCP_LAN
 interfaces:
   - name: LOM 1
     type: 10gbase-t
