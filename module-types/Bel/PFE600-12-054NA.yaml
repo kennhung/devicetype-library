@@ -1,0 +1,8 @@
+---
+manufacturer: Bel
+model: PFE600-12-054NA
+part_number: PFE600-12-054NA
+power-ports:
+  - name: '{module}'
+    type: iec-60320-c14
+    maximum_draw: 600
