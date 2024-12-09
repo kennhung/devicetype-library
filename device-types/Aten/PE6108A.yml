@@ -1,0 +1,41 @@
+---
+manufacturer: Aten
+model: PE6108A
+slug: aten-pe6108a
+part_number: PE6108A
+comments: '[PE6108](https://www.aten.com/global/en/products/power-distribution-&-racks/rack-pdu/pe6108/)'
+is_full_depth: false
+weight: 2.77
+weight_unit: kg
+u_height: 1
+power-ports:
+  - name: Input
+    type: nema-5-15p
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 2
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 3
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 4
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 5
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 6
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 7
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 8
+    type: nema-5-15r
+    power_port: Input
+interfaces:
+  - name: Ethernet
+    type: 1000base-t

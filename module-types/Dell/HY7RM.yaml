@@ -1,0 +1,23 @@
+---
+manufacturer: Dell
+model: HY7RM
+part_number: HY7RM
+description: Broadcom 5719 QP 1Gb Ethernet Adapter, PCIe Full Height
+comments: Broadcom 5719 QP 1Gb Ethernet Adapter, PCIe Full Height
+interfaces:
+  - name: '{module}-1GbE-0'
+    label: '1'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '{module}-1GbE-1'
+    label: '2'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '{module}-1GbE-2'
+    label: '3'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '{module}-1GbE-3'
+    label: '4'
+    type: 1000base-t
+    mgmt_only: false
