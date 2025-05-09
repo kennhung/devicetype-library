@@ -1,0 +1,14 @@
+---
+manufacturer: Mellanox
+model: BF2H536C
+part_number: MBF2H536C-CECOT
+description: BlueFieid-2 DPU 100GbE Network Card
+interfaces:
+  - name: '{module}-100GbE-0'
+    label: '1'
+    type: 100gbase-x-qsfp28
+  - name: '{module}-100GbE-1'
+    label: '2'
+    type: 100gbase-x-qsfp28
+  - name: '{module}-Ethernet-0'
+    type: 1000base-t

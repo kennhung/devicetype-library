@@ -1,0 +1,12 @@
+---
+manufacturer: Mellanox
+model: CX516A
+part_number: MCX516A-CCAT
+description: NVIDIA® Mellanox® ConnectX®-5
+interfaces:
+  - name: '{module}-100GbE-0'
+    label: '1'
+    type: 100gbase-x-qsfp28
+  - name: '{module}-100GbE-1'
+    label: '2'
+    type: 100gbase-x-qsfp28
