@@ -1,0 +1,27 @@
+---
+manufacturer: Edgecore
+model: EAP101
+slug: edgecore-eap101
+u_height: 0
+part_number: FIUEC0101002S
+console-ports:
+  - name: Console
+    label: Console
+    type: rj-45
+interfaces:
+  - name: eth0
+    label: Uplink (PoE)
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: eth1
+    label: Lan 1
+    type: 1000base-t
+  - name: eth2
+    label: Lan 2
+    type: 1000base-t
+power-ports:
+  - name: Power
+    label: 12Vdc
+    type: dc-terminal
+    maximum_draw: 23
