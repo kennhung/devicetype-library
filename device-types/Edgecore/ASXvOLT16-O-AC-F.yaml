@@ -1,0 +1,77 @@
+---
+manufacturer: Edgecore
+model: ASXvOLT16-O-AC-F
+slug: edgecore-asxvolt16-o-ac-f
+part_number: FN1EC0816003Z
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+comments: https://www.edge-core.com/wp-content/uploads/2023/09/ASXvOLT16-DS-R06.pdf
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: eth0
+    label: Mgmt
+    type: 1000base-t
+  - name: pon1
+    label: PON 1
+    type: xgs-pon
+  - name: pon2
+    label: PON 2
+    type: xgs-pon
+  - name: pon3
+    label: PON 3
+    type: xgs-pon
+  - name: pon4
+    label: PON 4
+    type: xgs-pon
+  - name: pon5
+    label: PON 5
+    type: xgs-pon
+  - name: pon6
+    label: PON 6
+    type: xgs-pon
+  - name: pon7
+    label: PON 7
+    type: xgs-pon
+  - name: pon8
+    label: PON 8
+    type: xgs-pon
+  - name: pon9
+    label: PON 9
+    type: xgs-pon
+  - name: pon10
+    label: PON 10
+    type: xgs-pon
+  - name: pon11
+    label: PON 11
+    type: xgs-pon
+  - name: pon12
+    label: PON 12
+    type: xgs-pon
+  - name: pon13
+    label: PON 13
+    type: xgs-pon
+  - name: pon14
+    label: PON 14
+    type: xgs-pon
+  - name: pon15
+    label: PON 15
+    type: xgs-pon
+  - name: pon16
+    label: PON 16
+    type: xgs-pon
+  - name: te1
+    type: 100gbase-x-qsfp28
+  - name: te2
+    type: 100gbase-x-qsfp28
+  - name: te3
+    type: 100gbase-x-qsfp28
+  - name: te4
+    type: 100gbase-x-qsfp28
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
