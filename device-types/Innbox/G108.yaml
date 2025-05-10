@@ -1,0 +1,21 @@
+---
+manufacturer: Innbox
+model: G108
+slug: innbox-g108
+u_height: 0
+is_full_depth: false
+comments: INNBOX G108 Supreme XGS-PON FTTH Home Gateway
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: LAN3
+    type: 1000base-t
+  - name: LAN4
+    type: 1000base-t
+  - name: pon0
+    type: xgs-pon
