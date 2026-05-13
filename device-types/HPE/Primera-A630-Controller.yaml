@@ -3,7 +3,10 @@ manufacturer: HPE
 model: Primera A630 Controller
 slug: hpe-primera-a630-controller
 subdevice_role: child
+is_full_depth: true
 u_height: 0
+weight: 3
+weight_unit: kg
 console-ports:
   - name: Service
     type: rj-45

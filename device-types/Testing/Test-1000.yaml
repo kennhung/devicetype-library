@@ -3,6 +3,7 @@ manufacturer: Generic
 model: TEST-1000
 slug: generic-test-1000
 u_height: 2
+is_full_depth: true
 subdevice_role: parent
 console-ports:
   - name: Console Port 1
@@ -74,7 +75,3 @@ device-bays:
   - name: Device Bay 1
   - name: Device Bay 2
   - name: Device Bay 3
-inventory-items:
-  - name: Inventory Item 1
-  - name: Inventory Item 2
-  - name: Inventory Item 3
