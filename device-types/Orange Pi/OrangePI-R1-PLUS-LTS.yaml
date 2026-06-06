@@ -1,0 +1,17 @@
+---
+manufacturer: Orange Pi
+model: Orange Pi R1 Plus LTS
+slug: orange-pi-r1-plus-lts
+part_number: R1PLUSLTS
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    label: WAN
+  - name: eth1
+    type: 1000base-t
+    label: LAN
+power-ports:
+  - name: PSU
+    type: usb-c
