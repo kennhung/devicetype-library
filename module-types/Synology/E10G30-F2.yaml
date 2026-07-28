@@ -6,6 +6,6 @@ description: Dual-port 10GbE SFP+ PCIe 3.0 x8 Network adapter
 comments: '[E10G30-F2 Specs](https://www.synology.com/en-us/products/E10G30-F2#specs)'
 interfaces:
   - name: '{module}/LAN 1'
-    type: 10gbase-x-sfp+
+    type: 10gbase-x-sfpp
   - name: '{module}/LAN 2'
-    type: 10gbase-x-sfp+
+    type: 10gbase-x-sfpp
