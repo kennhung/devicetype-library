@@ -44,6 +44,27 @@ power-ports:
   - name: PSU4
     type: iec-60320-c20
     maximum_draw: 2700
+module-bays:
+  - name: PCIe1
+    label: PCIe 5.0 x16 FHFL (max 600W GPU)
+  - name: PCIe2
+    label: PCIe 5.0 x16 FHFL (max 600W GPU)
+  - name: PCIe3
+    label: PCIe 5.0 x16 FHFL (max 600W GPU)
+  - name: PCIe4
+    label: PCIe 5.0 x16 FHFL (max 600W GPU)
+  - name: PCIe5
+    label: PCIe 5.0 x16 FHFL (max 600W GPU)
+  - name: PCIe6
+    label: PCIe 5.0 x16 FHFL (max 600W GPU)
+  - name: PCIe7
+    label: PCIe 5.0 x16 FHFL (max 600W GPU)
+  - name: PCIe8
+    label: PCIe 5.0 x16 FHFL (max 600W GPU)
+  - name: PCIe9
+    label: PCIe 5.0 x16 FHFL
+  - name: PCIe10
+    label: PCIe 4.0 x16 FHFL
 console-ports:
   - name: COM
     type: rj-45
