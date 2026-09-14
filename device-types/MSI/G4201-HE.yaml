@@ -30,7 +30,7 @@ comments: |-
   separately as accessories) — modeled here as IEC 60320 C20 appliance
   inlets. Cooling: (6) 6056 hot-swap fans + (4) 8080 internal fans.
 
-  Product page: https://eps.msi.com/en/product/barebones/G4201RAS10U2-HE
+  Product page: [https://eps.msi.com/en/product/barebones/G4201RAS10U2-HE](https://eps.msi.com/en/product/barebones/G4201RAS10U2-HE)
 power-ports:
   - name: PSU1
     type: iec-60320-c20
