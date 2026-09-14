@@ -1,0 +1,57 @@
+---
+manufacturer: MSI
+model: G4201-HE
+slug: msi-g4201-he
+part_number: MS-S383
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+comments: |-
+  8-GPU AI/HPC server platform (server board MS-S383). Dimensions
+  438mm(W) x 176mm(H) x 897mm(D). Dual 4th/5th Gen Intel Xeon Scalable
+  processors (LGA4677, TDP up to 350W each), Intel C741 chipset, 32x DDR5
+  DIMM slots (2DPC, RDIMM/3DS, up to 5600 MT/s 1DPC / 4400 MT/s 2DPC on 5th
+  Gen, 256GB max per DIMM). (8) PCIe 5.0 x16 FHFL slots supporting up to
+  600W PCIe cards + (1) PCIe 5.0 x16 FHFL slot + (1) PCIe 4.0 x16 FHFL slot,
+  all switchless direct-to-CPU. (12) hot-swap 3.5"/2.5" drive bays (2x U.2
+  PCIe 4.0 NVMe + 10x SATA 3.0), plus (2) internal M.2 2280/22110 PCIe 3.0
+  x2 slots from PCH. Intel SATA RAID 0/1/10/5, optional Intel VROC key for
+  NVMe RAID. BMC: ASPEED AST2600 (AMI MegaRAC), IPMI 2.0 + DMTF Redfish,
+  dual BIOS and BMC. Optional TPM 2.0 module.
+
+  Not modeled as discrete components (no matching NetBox component type):
+  front (1x USB 3.2 Gen1 Type-A, 1x USB 2.0, power/UID/reset buttons, 4x
+  status LEDs) and rear (2x USB 3.2 Gen1 Type-A, 1x VGA D-Sub, 1x UID LED
+  button) I/O, and the 12 drive bays / 2 internal M.2 slots noted above.
+
+  Power: (3+1) redundant 2700W CRPS 80 PLUS Titanium supplies, 4 installed.
+  Output is derated to 1008W max on 100-127Vac input; full 2700W requires
+  200-240Vac (16A) or 240Vdc (16A) input. C19 power cords required (sold
+  separately as accessories) — modeled here as IEC 60320 C20 appliance
+  inlets. Cooling: (6) 6056 hot-swap fans + (4) 8080 internal fans.
+
+  Product page: https://eps.msi.com/en/product/barebones/G4201RAS10U2-HE
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 2700
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 2700
+  - name: PSU3
+    type: iec-60320-c20
+    maximum_draw: 2700
+  - name: PSU4
+    type: iec-60320-c20
+    maximum_draw: 2700
+console-ports:
+  - name: COM
+    type: rj-45
+interfaces:
+  - name: LAN1
+    type: 1000base-t
+    description: Intel I210AT
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated Server Management Port (BMC)
