@@ -1,0 +1,98 @@
+---
+manufacturer: Accton
+model: CSP-7551
+slug: accton-csp-7551
+part_number: CSP-7551
+u_height: 2
+is_full_depth: true
+weight: 22
+weight_unit: kg
+comments: |-
+  Hyper Network Appliance combining dual-socket Intel Xeon Scalable server compute
+  (Skylake/Cascade Lake, up to 28 cores per socket) with a Barefoot Tofino 64Q switch
+  ASIC (32x 100GbE QSFP28, up to 3.2 Tbps switching capacity). Supports up to 512GB
+  DDR4 ECC memory (16 DIMM slots per socket), 2x M.2 NVMe local storage (max 2 devices),
+  optional PCIe expansion (Stratix 10 MX FPGA or standard PCIe cards), Sync-E/1588 PTP
+  timing support, and BMC-based remote management (AST2500/AST2520). Runs ONIE, SONiC,
+  or OpenBMC.
+
+  Product page: https://www.accton.com/tw/product/csp-7551/
+  Datasheet: https://www.accton.com/wp-content/uploads/2021/05/CSP-7551_Datasheet.pdf
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 2600
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 2600
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: swp1
+    type: 100gbase-x-qsfp28
+  - name: swp2
+    type: 100gbase-x-qsfp28
+  - name: swp3
+    type: 100gbase-x-qsfp28
+  - name: swp4
+    type: 100gbase-x-qsfp28
+  - name: swp5
+    type: 100gbase-x-qsfp28
+  - name: swp6
+    type: 100gbase-x-qsfp28
+  - name: swp7
+    type: 100gbase-x-qsfp28
+  - name: swp8
+    type: 100gbase-x-qsfp28
+  - name: swp9
+    type: 100gbase-x-qsfp28
+  - name: swp10
+    type: 100gbase-x-qsfp28
+  - name: swp11
+    type: 100gbase-x-qsfp28
+  - name: swp12
+    type: 100gbase-x-qsfp28
+  - name: swp13
+    type: 100gbase-x-qsfp28
+  - name: swp14
+    type: 100gbase-x-qsfp28
+  - name: swp15
+    type: 100gbase-x-qsfp28
+  - name: swp16
+    type: 100gbase-x-qsfp28
+  - name: swp17
+    type: 100gbase-x-qsfp28
+  - name: swp18
+    type: 100gbase-x-qsfp28
+  - name: swp19
+    type: 100gbase-x-qsfp28
+  - name: swp20
+    type: 100gbase-x-qsfp28
+  - name: swp21
+    type: 100gbase-x-qsfp28
+  - name: swp22
+    type: 100gbase-x-qsfp28
+  - name: swp23
+    type: 100gbase-x-qsfp28
+  - name: swp24
+    type: 100gbase-x-qsfp28
+  - name: swp25
+    type: 100gbase-x-qsfp28
+  - name: swp26
+    type: 100gbase-x-qsfp28
+  - name: swp27
+    type: 100gbase-x-qsfp28
+  - name: swp28
+    type: 100gbase-x-qsfp28
+  - name: swp29
+    type: 100gbase-x-qsfp28
+  - name: swp30
+    type: 100gbase-x-qsfp28
+  - name: swp31
+    type: 100gbase-x-qsfp28
+  - name: swp32
+    type: 100gbase-x-qsfp28
