@@ -16,8 +16,9 @@ comments: |-
   timing support, and BMC-based remote management (AST2500/AST2520). Runs ONIE, SONiC,
   or OpenBMC.
 
-  Product page: https://www.accton.com/tw/product/csp-7551/
-  Datasheet: https://www.accton.com/wp-content/uploads/2021/05/CSP-7551_Datasheet.pdf
+  Product page: [https://www.accton.com/tw/product/csp-7551](https://www.accton.com/tw/product/csp-7551)
+  
+  Datasheet: [https://www.accton.com/wp-content/uploads/2021/05/CSP-7551_Datasheet.pdf](https://www.accton.com/wp-content/uploads/2021/05/CSP-7551_Datasheet.pdf)
 power-ports:
   - name: PSU1
     type: iec-60320-c20
